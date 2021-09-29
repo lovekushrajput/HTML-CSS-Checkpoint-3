@@ -1,0 +1,781 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+img {
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0,auto;
+    padding: 0 32px;
+}
+.small-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+    
+}
+
+.padding{
+    padding: 130px 0;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(253,101,107);
+    color: white;
+    border-radius: 7px;
+}
+.btn-2{
+    color: tomato;
+    border: 2px solid tomato;
+    padding: 9px 15px;
+    border-radius: 3px;
+}
+ nav a:hover{
+    color: tomato;
+}
+
+/* start */
+.links{
+    background-color: rgb(1,45,91);
+    color: white;
+}
+.links i{
+    color: white;
+}
+.header-link small{
+    margin-right: 400px;
+}
+.ancher a{
+    margin-right: 30px;
+}
+.navbar{
+    padding: 10px 0 ;
+}
+.logo{
+    margin-left: 40px;
+}
+.nav-menu a{
+    color: rgb(47,84,121);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.nav-menu li{
+    margin-right: 20px;
+}
+
+.btn a{
+    color: white;
+}
+.hero{
+    background: url(../media/hero/h1_hero.jpg) ,no-repeat ;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.hero-1{
+    padding: 230px 200px; 
+}
+.hero-1 h1{
+    line-height: 1.3;
+    text-align: left;
+    color: rgb(0,45,91);
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
+.hero-1 small{
+    text-transform: uppercase;
+    color: tomato;
+}
+.button{
+    margin-top: 20px;
+     text-transform: uppercase;
+}
+/* section-content */
+.section-team{    
+    background-color: rgb(246,249,254);
+}
+.section-team img{
+    width: 100%;
+}
+.team{
+    width: 30%;
+    height: 300px;
+}
+.team h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    color: rgb(31,35,58);
+}
+.team p{
+    color: rgb(120,133,147);
+    font-size: 13px;
+}
+
+.team-box{
+    background-color: rgb(255,255,255);
+    padding: 15px;
+    text-align: left;
+    width: 25%;
+    height: 273px;
+    border: 2px solid red;
+}
+.team-box h2{
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(31,35,58);
+}
+.team-box hr{
+    margin: 20px 0;
+    text-align: left;
+    width: 100px;
+    margin-right: 180px;
+    background-color: red;
+}
+.team-box p{
+    font-size: 16px;
+    color: rgb(120,133,147);
+    margin-bottom: 10px;
+    line-height: 1.1;
+
+}
+.team-box a{
+    font-size: 10px;
+    color: grey;
+}
+/* section 1*/
+.section-team-3{
+    padding-top: 130px;
+}
+.team-3 img{
+    margin-left: 50px;
+    width: 80%;
+    right: 10px;
+    margin: -10px;
+    margin-bottom: 190px;
+    margin-left: 270px;
+}
+.clients{
+    margin-right: 60px;
+    /* padding: 0 30px; */
+    width: 60%;
+    height: 300px;
+    background-color: rgba(255, 255, 255 ,0.5);
+}
+.clients h2{
+    font-size: 30px;
+    color: rgb(31,35,58);
+    font-weight: 600;
+    padding: 20px 0;
+}
+.clients p{
+    padding-bottom: 30px;
+    color: rgb(120,133,147);
+
+}
+/* section -2*/
+ h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.col i{
+     font-size: 30px;
+     color: black;
+     margin-left: 78px;
+}
+.col h2{
+    text-align: center;
+    font-size: 24px;
+    margin-right: 20px;
+    color: rgb(31,35,58);
+    padding: 10px 0;
+}
+.col p{
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    color: rgb(120,133,147);
+}
+.service-btn{
+    display: inline-block;
+    margin-left: 450px;
+    margin-bottom: 90px;
+}
+/* section-cases */
+.cases-box{
+    background-color: rgb(246,249,254);
+}
+.cases h2{
+    font-size: 29px;
+    font-weight: 600;
+    color: rgb(31,35,58);
+}
+.cases p{
+    color: rgb(31,35,58);
+    font-size: 16px;
+    padding: 19px 0;
+    margin-bottom: 25px;
+}
+.cases-image{
+    width: 60%;
+}
+/* section */
+.testinomil{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+}
+.testinomil p{
+    padding: 14px 0;
+    line-height: 1.2; 
+}
+.testinomil a{
+    text-align: center;
+    color: rgb(251,186,66);
+}
+strong{
+    padding: 15px 0;
+    color: rgb(55,81,95);
+}
+.colorib{
+    padding: 10px 0;
+    color: grey;
+}
+/* section */
+.news{
+    width: 30%;
+    padding-bottom: 120px;
+}
+.news p{
+    padding-right: 30px;
+    color: red; 
+    padding: 10px 0;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 60px;
+    color: rgb(31,35,58);
+}
+time{
+    color: grey;
+}
+
+.news h3{
+    font-size: 23px;
+    text-align: left;
+    color: rgb(31,35,58);
+    padding: 10px 0;
+}
+/*  */
+.call{
+    padding: 50px 0;
+    background-color: rgb(0,45,91);
+}
+.call h5{
+    padding: 30px 0;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+.call p{
+    color: white;
+    line-height: 1.3;
+}
+.box-name{
+    padding: 8px 100px;
+    border: 2px solid rgb(24,69,115);
+    border-radius: 5px;
+}
+.box-phone{
+    padding: 8px 100px;
+    border: 2px solid rgb(24,69,115);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.box-Services{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 160px;
+    border: 2px solid rgb(24,69,115);
+    border-radius: 5px;
+}
+.send-button{
+    margin-left: 15px;
+    margin-top: 18px;
+    padding: 10px 50px;
+}
+/* section-footer */
+.footer-icon{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+.footer-icon img{
+    width: 30%;
+}
+.footer-icon p{
+    padding: 15px 0;
+    line-height: 1.3;
+     color: grey;
+}
+
+.navigation a{
+    color: black;
+     
+}
+h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0,45,91);
+}
+.links-pages a {
+    
+    color: grey;
+    line-height: 1.5;
+}
+.footer-icon li{
+      color: grey;
+      line-height: 2;
+}   
+.line{
+    text-align: center;
+    border: 1px solid skyblue;
+}
+.footer p{
+    text-align: center;
+}
+.footer{
+    padding: 25px 0;
+    text-align: center;
+}
+.footer strong{
+    color: red;
+} 
+.small{
+    text-align: center;
+}
+/* service-page */
+.service-page{
+    background: url(../media/hero/services_hero.jpg),no-repeat;
+    background-size: cover;
+    margin-bottom: 89px;
+}
+.service-page h2{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 110px 0;
+}
+/* about-page */
+.about-section{
+    background: url(../media/hero/about_hero.jpg),no-repeat;
+    background-size: cover;
+}
+.about-section h2{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 110px 0;
+}
+
+/* contact-page */
+.contact-page{
+    background: url(../media/hero/contact_hero.jpg),no-repeat;
+    background-size: cover;
+}
+.contact-page h2{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 110px 0;
+}
+iframe{
+    padding: 40px 0;
+}
+.contact-box-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.contact-box{
+    padding: 60px 280px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+}
+.contact-box-1{
+      padding: 7px 100px;
+      border: 2px solid grey;
+      margin-bottom: 20px;
+}
+.contact-box-2{
+    padding: 6px 130px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+}
+.contact-box-3{
+    padding: 6px 17px;
+    border: 2px solid grey;
+    margin-bottom: 10px;
+}
+.contact-links{
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+.contact-info h3{
+    padding: 20px 0;
+    font-size: 30px;
+    color: rgb(31,35,58);
+}
+.contact-links a{
+      color: grey;
+      font-size: 30px;
+      margin-left: 30px;
+}
+
+.btn-3{
+    width: 70px;
+    height: 30px;
+    border: 2px solid tomato;
+    margin-bottom: 30px;
+}
+.btn-3 p{
+    text-align: center;
+    margin-top: 6px;
+}
+/* Blog-page */
+.blog-section-1{
+    background: url(../media/hero/blog_hero.jpg),no-repeat;
+    background-size: cover;
+}
+
+.blog-section-1 h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 110px 0;
+}
+.blog-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+.blog-section-2{
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+/* blog-images */
+.blog-article{
+    margin-bottom: 50px;
+    /* width: 48%; */
+    box-shadow: 2px 2px 6px 4px rgba(0,0,0,0.2);
+}
+.blog-image-1{
+    bottom: 18px;
+}
+.small-date{
+    margin-left: 30px;
+    margin-top: -50px;
+    bottom: 1px;
+    height: 65px;
+    color: white;
+}
+.time{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.para-info{
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.para-info h6{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.para-info p{
+    text-align: start;
+    line-height: 1,5;
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+ .para-info a{
+      color: grey;
+      font-size: 10px;
+}
+.para-info a i{
+    font-size: 10px;
+}
+/* aside */
+aside{
+    width: 30%;
+    margin-left: 50px;
+}
+.search-button{
+    padding: 14px 100px;
+    background-color: rgb(241, 216, 241);
+    margin-bottom: 20px;
+}
+.search{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    padding: 3px 7px;
+    border: palevioletred 2px solid;
+    background-color: white;
+    align-items: center;
+}
+.search i{
+    color:white;
+    background-color: tomato;
+    height: 35px;
+    width: 40px;
+}
+.search-2{
+    width: 36%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 12px 80px;
+    border: tomato 2px solid;
+    background-color: white;
+
+}
+.item-list{
+    background-color: rgb(241, 216, 241);
+    margin-bottom: 10px;
+}
+h6{
+    font-size: 24px;
+    padding: 10px 35px;
+}
+hr{
+    padding:0 30px;
+}
+.item-list ul{
+    font-size: 17px;
+    padding: 9px 30px;
+}
+.post{
+    padding: 20px;
+    
+    background-color: rgb(241, 216, 241);
+}
+.newssetter{
+    margin-top: 10px;
+    padding: 20px;
+    
+    background-color: rgb(241, 216, 241);
+}
+.post h6{
+    font-size: 19px;
+}
+.clouds{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgb(241, 216, 241);
+}
+.instagram{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(241, 216, 241);
+}
+.post img{
+    width: 18%;
+}
+.life{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-right: 20px;
+}
+.life h2{
+    font-size: 15px;
+    color: rgb(31,35,58);
+}
+.life p{
+    font-size: 13px;
+    color: grey;
+}
+.one{
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid plum;
+}
+.two{
+    background-color: rgb(250, 234, 234);
+}
+.project{
+    padding: 5px 6px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.project-2{
+    padding: 5px 4px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.clouds h6{
+     font-size: 18px;
+     color: rgb(31,35,58);
+}
+.project-3{
+    padding: 5px 8px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.project-4{
+    padding: 5px 6px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.project-5{
+    padding: 5px 9px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.project-6{
+    padding: 5px 7px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.project-7{
+    padding: 5px 6px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.project-8{
+    padding: 5px 4px;
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
+}
+.insta figure{
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+.news2{
+    text-align: left;
+    padding: 7px 25px;
+    border: 2px solid palevioletred ;
+    margin-bottom: 10px;
+    width: 49%;
+}
+.news-info{
+    width: 50%;
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid red;
+}
+/* cases-page */
+.cases-section{
+    background: url(../media/hero/cases_hero.jpg),no-repeat;
+    background-size: cover;
+}
+.cases-section h2{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    padding: 110px 0;
+}
+.case-img {
+    margin-top: 50px;
+    position: relative;
+  }
+  .case-image2 {
+      position: relative;
+    width: 350px;
+    height: 400px;
+  }
+  .section-2-case-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+  }
+  .section-2-case {
+      height: 50px;
+    padding-bottom: 150px;
+  }
