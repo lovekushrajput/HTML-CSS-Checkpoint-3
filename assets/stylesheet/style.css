@@ -47,11 +47,20 @@ table {
 	border-spacing: 0;
 }
 /* custom */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 img {
     width: 100%;
 }
+.tex-align{
+    text-align: center;
+}
 a{
     text-decoration: none;
+}
+.padding-item-list{
+    padding: 10px 35px;
 }
 .flex{
     display: flex;
@@ -66,8 +75,12 @@ a{
 .small-container{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 32px;
-    
+    padding: 0 32px;    
+}
+.project-1{
+    border: 1px solid grey;
+    background-color: white;
+    margin: 5px 5px;
 }
 
 .padding{
@@ -95,6 +108,7 @@ a{
     color: white;
 }
 .links i{
+    padding: 13px 0;
     color: white;
 }
 .header-link small{
@@ -108,6 +122,9 @@ a{
 }
 .logo{
     margin-left: 40px;
+}
+.margin-left{
+    margin-left: 78px;
 }
 .nav-menu a{
     color: rgb(47,84,121);
@@ -131,11 +148,12 @@ a{
     padding: 230px 200px; 
 }
 .hero-1 h1{
-    line-height: 1.3;
+    padding-bottom: 29px;
+    line-height: 1.1;
     text-align: left;
     color: rgb(0,45,91);
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
 } 
 .hero-1 small{
@@ -164,6 +182,7 @@ a{
     color: rgb(31,35,58);
 }
 .team p{
+    line-height: 1.5;
     color: rgb(120,133,147);
     font-size: 13px;
 }
@@ -177,7 +196,7 @@ a{
     border: 2px solid red;
 }
 .team-box h2{
-    padding: 10px 0;
+    padding: 15px 0;
     font-weight: 600;
     font-size: 40px;
     color: rgb(31,35,58);
@@ -190,10 +209,10 @@ a{
     background-color: red;
 }
 .team-box p{
-    font-size: 16px;
+    font-size: 13px;
     color: rgb(120,133,147);
     margin-bottom: 10px;
-    line-height: 1.1;
+    line-height: 1.5;
 
 }
 .team-box a{
@@ -220,29 +239,44 @@ a{
     background-color: rgba(255, 255, 255 ,0.5);
 }
 .clients h2{
+    margin-left: 20px;
     font-size: 30px;
     color: rgb(31,35,58);
     font-weight: 600;
     padding: 20px 0;
 }
 .clients p{
+    margin-left: 20px;
+    line-height: 1.3;
     padding-bottom: 30px;
     color: rgb(120,133,147);
 
 }
+.learnbtn{
+    margin-left: 20px;
+}
+.unique{
+    background-color: rgb(253,101,107);
+    font-weight: 400px;
+    font-size: 18px;
+    color: white;
+    padding-left: 10px;
+}
 /* section -2*/
  h3{
+     color: rgb(31,35,58);
     text-align: center;
     font-size: 40px;
     font-weight: 600;
 }
-.col i{
+.col{
+    background-color: rgb(252,253,255);
+}
+.col  i{
      font-size: 30px;
      color: black;
-     margin-left: 78px;
 }
 .col h2{
-    text-align: center;
     font-size: 24px;
     margin-right: 20px;
     color: rgb(31,35,58);
@@ -250,8 +284,8 @@ a{
 }
 .col p{
     font-size: 16px;
-    line-height: 1.1;
-    text-align: center;
+    line-height: 1.3;
+    /* text-align: center; */
     color: rgb(120,133,147);
 }
 .service-btn{
@@ -284,11 +318,11 @@ a{
     align-self: center;
     width: 30%;
 }
-.testinomil p{
+.testinomil blockquote{
     padding: 14px 0;
     line-height: 1.2; 
 }
-.testinomil a{
+.testinomil a {
     text-align: center;
     color: rgb(251,186,66);
 }
@@ -535,7 +569,6 @@ iframe{
 /* blog-images */
 .blog-article{
     margin-bottom: 50px;
-    /* width: 48%; */
     box-shadow: 2px 2px 6px 4px rgba(0,0,0,0.2);
 }
 .blog-image-1{
@@ -543,22 +576,32 @@ iframe{
 }
 .small-date{
     margin-left: 30px;
-    margin-top: -50px;
-    bottom: 1px;
-    height: 65px;
-    color: white;
+    margin-top: -60px;
+    /* bottom: 1px; */
+    position: absolute;
+    z-index: 2;
+    padding-bottom: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: rgb(253,101,107);
+     width: 50px;
+    /* height: 65px; */
+    /* color: white; */
 }
 .time{
-    background-color: tomato;
+    line-height: 1.2;
+    text-align: center;
     color: white;
-    padding: 10px;
+    /* margin-left: 50px; */
+    /* padding-left: 10px; */
     font-size: 20px;
 }
 .para-info{
-    padding: 10px 20px;
+    padding: 10px 20px; 
     margin-top: 30px;
 }
-.para-info h6{
+.para-info h2{
+    margin-top: 10px;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -582,45 +625,53 @@ aside{
     margin-left: 50px;
 }
 .search-button{
-    padding: 14px 100px;
-    background-color: rgb(241, 216, 241);
+    padding: 10px 30px;
+    background-color: rgb(250, 246, 252);
     margin-bottom: 20px;
 }
 .search{
-    background-color: tomato;
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
-    padding: 3px 7px;
-    border: palevioletred 2px solid;
+    padding: 0px 0px;
+    color: grey;
+    border:  1px solid rgb(244,238,255);
     background-color: white;
     align-items: center;
 }
 .search i{
+    /* text-align: center; */
     color:white;
-    background-color: tomato;
-    height: 35px;
-    width: 40px;
+    background-color: rgb(253,133,138);
+    padding: 11px 10px;
+    border: 2px rgb(253,133,138) solid;
+    /* height: 40px; */
+    /* width: 40px; */
 }
 .search-2{
     width: 36%;
     text-align: center;
     margin-top: 10px;
-    padding: 12px 80px;
-    border: tomato 2px solid;
+    padding: 12px 70px;
+    color: rgb(253,133,138);
+    border: rgb(253,133,138) 2px solid;
     background-color: white;
 
 }
 .item-list{
-    background-color: rgb(241, 216, 241);
+    background-color: rgb(250, 246, 252);
     margin-bottom: 10px;
 }
-h6{
+h2{
     font-size: 24px;
-    padding: 10px 35px;
+    
 }
 hr{
+    /* background-color: rgb(241, 216, 241); */
+    background-color: rgb(237, 236, 247);
+    border: 1px solid rgb(237, 236, 247);
+    width: 55%;
     padding:0 30px;
 }
 .item-list ul{
@@ -630,26 +681,26 @@ hr{
 .post{
     padding: 20px;
     
-    background-color: rgb(241, 216, 241);
+    background-color: rgb(250, 246, 252);
 }
 .newssetter{
     margin-top: 10px;
     padding: 20px;
     
-    background-color: rgb(241, 216, 241);
+    background-color: rgb(250, 246, 252);
 }
-.post h6{
+.post h2{
     font-size: 19px;
 }
 .clouds{
     margin-top: 10px;
     padding: 20px;
-    background-color: rgb(241, 216, 241);
+    background-color: rgb(250, 246, 252);
 }
 .instagram{
     padding: 20px;
     margin-top: 10px;
-    background-color: rgb(241, 216, 241);
+    background-color: rgb(250, 246, 252);
 }
 .post img{
     width: 18%;
@@ -661,10 +712,12 @@ hr{
     margin-right: 20px;
 }
 .life h2{
+    margin-left: 10px;
     font-size: 15px;
     color: rgb(31,35,58);
 }
 .life p{
+    padding-left: 20px;
     font-size: 13px;
     color: grey;
 }
@@ -678,58 +731,35 @@ hr{
 }
 .project{
     padding: 5px 6px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
+ 
 }
 .project-2{
     padding: 5px 4px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
 }
-.clouds h6{
+.clouds h2{
      font-size: 18px;
      color: rgb(31,35,58);
 }
 .project-3{
     padding: 5px 8px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
 }
 .flex-start{
     justify-content: flex-start;
 }
 .project-4{
     padding: 5px 6px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
 }
 .project-5{
     padding: 5px 9px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
 }
 .project-6{
     padding: 5px 7px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
 }
 .project-7{
     padding: 5px 6px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
 }
 .project-8{
     padding: 5px 4px;
-    border: 1px solid grey;
-    background-color: white;
-    margin: 5px 5px;
 }
 .insta figure{
     margin-bottom: 8px;
@@ -737,16 +767,20 @@ hr{
 }
 .news2{
     text-align: left;
-    padding: 7px 25px;
-    border: 2px solid palevioletred ;
+    color: grey;
+    padding: 8px 55px;
+    border: 2px solid rgb(244,239,255) ;
+    background-color: white;
     margin-bottom: 10px;
     width: 49%;
 }
 .news-info{
     width: 50%;
     text-align: center;
-    padding: 10px 20px;
-    border: 2px solid red;
+    padding: 13px 55px;
+    background-color: white;
+    color: rgb(253,133,138);
+    border: 2px solid rgb(253,133,138);
 }
 /* cases-page */
 .cases-section{
@@ -760,22 +794,46 @@ hr{
     font-weight: 700;
     padding: 110px 0;
 }
-.case-img {
-    margin-top: 50px;
+.same-section{
+    padding: 90px;
+}
+.strategy figure{
+    z-index: -1px;
+    /* padding-top: 50px; */
+    width: 280px;
     position: relative;
-  }
-  .case-image2 {
-      position: relative;
-    width: 350px;
-    height: 400px;
-  }
-  .section-2-case-info {
+    margin-bottom: 20px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.strategy h2{
+    padding-top: 7px;
+    padding-right: 18.4px;
+    font-size: 20px;
+    color: rgb(31,35,58);
+    margin-top: -75px;
+    padding-bottom: 4px;
+    z-index: 2px;
     position: absolute;
-    left: 0;
-    bottom: 0;
     background-color: white;
-  }
-  .section-2-case {
-      height: 50px;
-    padding-bottom: 150px;
-  }
+    font-weight: 600;
+
+}
+.strategy p{
+    padding-right: 17px;
+    color: rgb(91,107,123);
+    /* margin-top: 30px; */
+    font-weight: 500;
+    font-size: 12.9px;
+    z-index: 2px;
+    margin-top: -48.5px;
+    position: absolute;
+    background-color: white;
+}
+
+
